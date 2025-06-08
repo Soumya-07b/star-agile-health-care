@@ -1,4 +1,4 @@
----
+i---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: healthcare
-          image: sony98/healthcare:2
+          image: sony98/healthcare:latest
           ports:
             - containerPort: 8081
           env:
