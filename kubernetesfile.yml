@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: healthcare
-          image: sony98/healthcare:latest
+          image: sony98/healthcare:5
           ports:
             - containerPort: 8081
           env:
